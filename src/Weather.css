@@ -1,0 +1,168 @@
+body {
+  background-color: white;
+}
+
+.Weather {
+  margin: 20px;
+}
+
+.Weather .search-form {
+  margin-bottom: 20px;
+}
+
+.Weather .current-location {
+  color: #272343;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.Weather h1 {
+  color: #272343;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.Weather .current-temp {
+  text-align: left;
+}
+
+.Weather span.current-temp-number {
+  color: black;
+  font-size: 45px;
+  padding-right: 10px;
+}
+
+.Weather span.current-temp-units {
+  color: black;
+  font-size: 15px;
+  position: relative;
+  top: -15px;
+  left: -5px;
+}
+
+.Weather a {
+  color: black;
+  text-decoration: none;
+}
+
+.Weather a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.Weather p {
+  color: #272343;
+  font-size: 12px;
+}
+
+.Weather .emoji {
+  padding: 0%;
+  margin: 0;
+}
+
+.Weather .humidity {
+  color: #272343;
+  font-size: 12px;
+  text-align: right;
+  opacity: 0.7;
+  margin-bottom: 0;
+}
+
+.Weather .wind {
+  color: #272343;
+  font-size: 12px;
+  text-align: right;
+  opacity: 0.7;
+  margin-bottom: 0;
+}
+
+.weather-forecast-temperature-min {
+  color: #272343;
+  font-size: 12px;
+  text-align: right;
+  opacity: 0.7;
+}
+
+.weather-forecast-temperature-max {
+  color: #272343;
+  font-size: 12px;
+  text-align: right;
+}
+
+.sunshine {
+  font-size: 50px;
+  color: #272343;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.sunny-spells {
+  font-size: 100px;
+  color: #272343;
+}
+
+.Weather .day {
+  color: #272343;
+  text-align: right;
+  font-size: 20px;
+}
+
+.Weather .date {
+  color: #272343;
+  opacity: 0.7;
+  text-align: right;
+  font-size: 15px;
+}
+
+Weather .title {
+  display: block;
+  text-align: center;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.Weather span.city {
+  margin-bottom: 0;
+}
+
+.Weather .overview {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  margin: 10px auto;
+  background-color: #e3f6f5;
+}
+
+.Weather .container {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  margin: 10px auto;
+  background-color: #e3f6f5;
+  border-radius: 1%;
+  border: 2px solid #272343;
+  border-radius: 20px;
+}
+
+.Weather .forecast-container {
+  padding: 20px;
+  max-width: 600px;
+  color: #fff;
+  margin: 30px auto 10px;
+  border-radius: 10%;
+  background-color: #e3f6f5;
+  border: 2px solid #272343;
+  border-radius: 20px;
+}
+
+.Weather .footer {
+  text-align: center;
+}
+
+.Weather p.author {
+  color: #272343;
+  font-size: 12px;
+  margin: 0 auto 10px;
+}
